@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <title>TaskApp</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<!--Górny pasek z narzędziami-->
+    <nav>
+        <button id="listWrap" class="nav-btns">Lista</button>
+        <button id="dlMode" class="nav-btns">DL</button>
+        <button id="settings" class="nav-btns">Ustawienia</button>
+    </nav>
+<!--Część dla uzytkownika i kategorii tasków-->
+    <aside>
+        <section id="user">
+            <div id="userPhoto">
+                <img id="usPhoto" src="Assets/profile.png" alt="userPhoto">
+            </div>
+            <div id="userMail">
+                <p>ExampleUserMail@gmail.com</p>
+            </div>
+        </section>
+        <section id="categoties">
+            <!--In progress...-->
+        </section>
+    </aside>
+<!--Główny element z taskami-->
+    <main>
+        <div id="pending" class="taskLists"><h3>Oczekujące</h3></div>
+        <div id="inProgress" class="taskLists"><h3>W trakcie</h3></div>
+        <div id="completed" class="taskLists"><h3>Skończone</h3></div>
+    </main>
+
+
+
+
 
 
 </body>

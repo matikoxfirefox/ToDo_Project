@@ -15,12 +15,13 @@ body {
 nav {
     display: flex;
     justify-content: space-between;
+    height: 5vh;
 }
 /* ----- Main ----- */
 main {
     display: flex;
     justify-content: space-between;
-    height: 100vh;
+    height: 95vh;
 }
 /* ----- Aside ----- */
 aside {
@@ -69,7 +70,6 @@ aside {
     display: flex;
     flex-direction: column;
     width: 90%;
-    background-color: white;
     overflow-y: auto;
     max-height: 90%;
 }

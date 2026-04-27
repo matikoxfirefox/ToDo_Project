@@ -21,8 +21,9 @@
                 <div id="userPhoto">
                     <img id="usPhoto" src="Assets/profile.png" alt="userPhoto">
                 </div>
-                <div id="userMail">
-                    <p>ExampleUserMail@gmail.com</p>
+                <div id="userInfo">
+                    <h3 id="userName">User Name</h3>
+                    <p id="userMail">ExampleUserMail@gmail.com</p>
                 </div>
             </section>
             <section id="categoties">
@@ -33,35 +34,45 @@
         <section id="taskSection">
             <form id="addTask">
                 <input type="text" name="taskTitle" id="taskTitle" placeholder="Tytuł">
+                <!--suppress HtmlUnknownAttribute -->
                 <textarea type="text" name="taskDesc" id="taskDesc" placeholder="Opis"
                 cols="20" rows="20"></textarea>
             </form>
             <div id="pending" class="taskLists">
-                <h3>Oczekujące</h3>
-                <ul id="pendingList" style="list-style: none;">
-                    <li>Example 1</li>
-                    <li>Example 2</li>
-                    <li>Example 3</li>
-                    <li>Example 4</li>
-                </ul>
+                <h3 style="padding-top: 5px">Oczekujące</h3>
+                <hr>
+                <div class="taskUlList">
+                    <ul id="pendingList" style="list-style: none;">
+                        <li>Example 1</li>
+                        <li>Example 2</li>
+                        <li>Example 3</li>
+                        <li>Example 4</li>
+                    </ul>
+                </div>
             </div>
             <div id="inProgress" class="taskLists">
-                <h3>W trakcie</h3>
-                <ul id="inProgressList" style="list-style: none;">
-                    <li>Example 1</li>
-                    <li>Example 2</li>
-                    <li>Example 3</li>
-                    <li>Example 4</li>
-                </ul>
+                <h3 style="padding-top: 5px">W trakcie</h3>
+                <hr>
+                <div class="taskUlList">
+                    <ul id="inProgressList" style="list-style: none;">
+                        <li>Example 1</li>
+                        <li>Example 2</li>
+                        <li>Example 3</li>
+                        <li>Example 4</li>
+                    </ul>
+                </div>
             </div>
             <div id="completed" class="taskLists">
-                <h3>Skończone</h3>
-                <ul id="completedList" style="list-style: none;">
-                    <li>Example 1</li>
-                    <li>Example 2</li>
-                    <li>Example 3</li>
-                    <li>Example 4</li>
-                </ul>
+                <h3 style="padding-top: 5px">Skończone</h3>
+                <hr>
+                <div class="taskUlList">
+                    <ul id="completedList" style="list-style: none;">
+                        <li>Example 1</li>
+                        <li>Example 2</li>
+                        <li>Example 3</li>
+                        <li>Example 4</li>
+                    </ul>
+                </div>
             </div>
         </section>
     </main>

@@ -39,10 +39,37 @@ aside {
     align-items: center;
     background-color: #8daea9;
 }
-form {
+#taskSection hr {
+    width: 75%;
+}
+
+#addTask {
     display: flex;
     flex-direction: column;
+    border: 1px red solid;
+    padding: 2px;
 }
-#addTask {
-    backdrop-filter: blur(20px);
+#taskTitle {
+    border-radius: 10px 10px 0 0;
+}
+#taskDesc {
+    border-radius: 0 0 10px 10px;
+}
+.taskLists {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 80vh;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.taskUlList {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    overflow-y: auto;
+    max-height: 90%;
 }
